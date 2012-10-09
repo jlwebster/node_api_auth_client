@@ -27,7 +27,7 @@
         path = '/'
       }
 
-      var date = moment().utc().format('ddd, DD MMM YYYY hh:mm:ss') + ' GMT';
+      var date = moment().utc().format('ddd, DD MMM YYYY HH:mm:ss') + ' GMT';
 
       var canonical_string = [content_type, content_md5, path, date].join();
 
