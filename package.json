@@ -1,0 +1,28 @@
+{
+  "name": "api_auth",
+  "id": "api_auth",
+  "version": "0.0.1",
+  "description": "A simple Node.js client that authenticates to a service that implement api_auth: https://github.com/mgomes/api_auth",
+  "keywords": [
+    "api",
+    "authentication",
+    "client",
+    "nonce"
+  ],
+  "author": {
+    "name": "John Webster",
+    "email": "jlwebster@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jlwebster/node_api_auth_client.git",
+    "web": "https://github.com/jlwebster/node_api_auth_client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlwebster/node_api_auth_client/issues"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "moment": "1.7.2"
+  }
+}
