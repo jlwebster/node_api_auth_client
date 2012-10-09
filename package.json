@@ -1,8 +1,8 @@
 {
   "name": "api_auth",
   "id": "api_auth",
-  "version": "0.0.1-1",
-  "description": "A simple Node.js client that authenticates to a service that implement api_auth: https://github.com/mgomes/api_auth",
+  "version": "0.0.1-2",
+  "description": "A simple Node.js client that authenticates to a ruby api that uses api_auth: https://github.com/mgomes/api_auth",
   "keywords": [
     "api",
     "authentication",
@@ -30,5 +30,5 @@
     {
       "type": "MIT"
     }
-  ],
+  ]
 }
