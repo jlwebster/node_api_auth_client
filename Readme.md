@@ -4,7 +4,7 @@ A simple Node.js client that authenticates to a service that implement api_auth:
 
 ## Install ##
 ```
-  npm install api_auth
+  $ npm install api_auth
 ```
 
 ## Usage ##
