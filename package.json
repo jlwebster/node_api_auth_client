@@ -1,7 +1,7 @@
 {
   "name": "api_auth",
   "id": "api_auth",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "description": "A simple Node.js client that authenticates to a service that implement api_auth: https://github.com/mgomes/api_auth",
   "keywords": [
     "api",
@@ -24,5 +24,11 @@
   "dependencies": {
     "crypto": "0.0.3",
     "moment": "1.7.2"
-  }
+  },
+  "main": "./api_auth.js",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
 }
