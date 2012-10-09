@@ -6,6 +6,7 @@ A simple Node.js client that authenticates to a service that implement api_auth:
   npm install api_auth
 
 ## Usage ##
+```js
   // Set up api request options
   var options = {
     host: '<HOST>',
@@ -25,3 +26,4 @@ A simple Node.js client that authenticates to a service that implement api_auth:
   var req = http.request(options, function(res){
       ...
   });
+```
