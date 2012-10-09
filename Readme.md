@@ -3,7 +3,9 @@
 A simple Node.js client that authenticates to a service that implement api_auth: https://github.com/mgomes/api_auth
 
 ## Install ##
+```
   npm install api_auth
+```
 
 ## Usage ##
 ```js
