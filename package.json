@@ -1,7 +1,7 @@
 {
   "name": "api_auth",
   "id": "api_auth",
-  "version": "0.0.2-1",
+  "version": "0.0.2-2",
   "description": "A simple Node.js client that authenticates to a ruby api that uses api_auth: https://github.com/mgomes/api_auth",
   "keywords": [
     "api",
