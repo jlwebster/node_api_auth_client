@@ -23,7 +23,7 @@ A simple Node.js client that authenticates to a ruby api that uses api_auth: htt
   // Sign options hash using api_auth
   var access_id = '<ACCESS_ID>';
   var secret = '<SECRET>';
-  options = require('api_auth').auth(<ACCESS_ID>, <SECRET>).sign_options(options, content_body);
+  options = require('api_auth').auth(access_id, secret).sign_options(options, content_body);
   
   //Make request
   var req = http.request(options, function(res){
