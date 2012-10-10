@@ -12,7 +12,7 @@ A simple Node.js client that authenticates to a ruby api that uses api_auth: htt
   // Set up api request options
   var options = {
     host: '<HOST>',
-    path: '/resource.json',
+    path: '/<RESOURCE_PATH>.json',
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
