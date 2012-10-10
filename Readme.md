@@ -1,6 +1,6 @@
 # node_api_auth_client #
 
-A simple Node.js client that authenticates to a service that implement api_auth: https://github.com/mgomes/api_auth
+A simple Node.js client that authenticates to a ruby api that uses api_auth: https://github.com/mgomes/api_auth
 
 ## Install ##
 ```
@@ -12,7 +12,7 @@ A simple Node.js client that authenticates to a service that implement api_auth:
   // Set up api request options
   var options = {
     host: '<HOST>',
-    path: '/resource.json',
+    path: '/<RESOURCE_PATH>.json',
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -23,7 +23,7 @@ A simple Node.js client that authenticates to a service that implement api_auth:
   // Sign options hash using api_auth
   var access_id = '<ACCESS_ID>';
   var secret = '<SECRET>';
-  options = require('api_auth').auth(<ACCESS_ID>, <SECRET>).sign_options(options, content_body);
+  options = require('api_auth').auth(access_id, secret).sign_options(options, content_body);
   
   //Make request
   var req = http.request(options, function(res){
