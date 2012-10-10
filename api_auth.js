@@ -1,5 +1,4 @@
 // api_auth.js
-// version : 0.0.1-1
 // author : John Webster
 // license : MIT
 // https://github.com/jlwebster/node_api_auth_client
