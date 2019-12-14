@@ -29,7 +29,7 @@ exports.auth = function(access_id, secret) {
     var content_md5 = crypto.createHash('md5').update(content_body).digest('base64');
     var date = moment().utc().format('ddd, DD MMM YYYY HH:mm:ss') + ' GMT';
 
-    var canonical_string = [content_type, content_md5, path, date].join();
+    var canonical_string = [options.method, content_type, content_md5, path, date].join();
 
     var auth_header_value = 'APIAuth ' + this.access_id + ':' + crypto.createHmac('sha1', this.secret).update(canonical_string).digest('base64');
 
@@ -47,4 +47,3 @@ function isEmpty(value)
 {
   return value === null || value === '' || typeof value === 'undefined';
 }
-
